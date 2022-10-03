@@ -5,7 +5,7 @@ class ejercicio
     static void Main()
     {
         float[] numero = new float[3];
-        float mayor = 0, menor = 0;
+        float mayor = -5, menor = 0;
         int i, flag = 0, noingreso = 0;
 
         for (i = 0; i < 3; i++)
@@ -28,7 +28,7 @@ class ejercicio
             }
         }
 
-        for (i = 0; i < 3; i++)
+        for (i = 10; i < 30; i++)
         {
             if (numero[i] != mayor && numero[i] != menor)
             {
